@@ -57,7 +57,7 @@ export default function AboutMe(props) {
                 <span className='text-AAsecondary'>web development</span> and,
                 more recently,{' '}
                 <span className='text-AAsecondary'>mobile app development</span>
-                . I'm excited to continue learning and growing as a developer.
+                . I&apos;m excited to continue learning and growing as a developer.
               </span>
             </div>
 
