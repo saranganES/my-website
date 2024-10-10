@@ -4,11 +4,11 @@ export default function About() {
   return (
     <div className="w-full h-full py-8 md:px-8 flex md:flex-row flex-col md:space-x-12 items-center space-y-4">
           <div className="flex-none  w-32 lg:w-44 flex justify-center items-center">
-            <Img
+            {/* <Img
               src="titofCercle.png"
               alt="About picture"
               className="opacity-80"
-            />
+            /> */}
           </div>
           <div className="flex flex-col space-y-8  items-center">
             <span className="font-extrabold lg:text-5xl md:text-4xl text-2xl sm:text-3xl text-gray-300">

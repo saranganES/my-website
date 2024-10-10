@@ -53,12 +53,9 @@ export default function Home() {
     Aos.init({ duration: 2000, once: true });
   }, []);
 
- 
-
-  console.log("Portfolio Rendered...");
   const meta = {
-    title: "Abdellatif Anaflous - Software Engineer",
-    description: `I've been working on Software development for 5 years straight. Get in touch with me to know more.`,
+    title: "Sarangan Elangovan - Software Engineer",
+    description: `I've been working on Software development for 4 years straight. Get in touch with me to know more.`,
     image: "/titofCercle.png",
     type: "website",
   };
@@ -69,8 +66,8 @@ export default function Home() {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://anaflous.com`} />
-        <link rel="canonical" href={`https://anaflous.com`} />
+        <meta property="og:url" content={`https://sarangan.vercel.app`} />
+        <link rel="canonical" href={`https://sarangan.vercel.app`} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Manu Arora" />
         <meta property="og:description" content={meta.description} />
