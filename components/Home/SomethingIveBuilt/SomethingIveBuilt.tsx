@@ -122,9 +122,9 @@ export default function SomethingIveBuilt() {
                 <span className='pr-4 z-10'>Token tracking</span>
               </ul>
               <div className='z-10 flex fle-row space-x-5 '>
-                <GithubIcon link='https://github.com/hktitof/Ypredict' />
+                {/* <GithubIcon link='https://github.com/hktitof/Ypredict' /> */}
                 <a
-                  href='https://ubiquitous-bublanina-da84ec.netlify.app/'
+                  href='https://www.zenfurniture.in/'
                   target={'_blank'}
                   rel='noreferrer'
                 >
@@ -290,8 +290,7 @@ export default function SomethingIveBuilt() {
                text-sm font-Text2 md:justify-start'
               >
                 <span className='pr-4 z-10'>Cookies</span>
-                <span className='pr-4 z-10'>Google APi</span>
-                <span className='pr-4 z-10'>Data collecting</span>
+                <span className='pr-4 z-10'>Google API</span>
                 <span className='pr-4 z-10'>IP Address</span>
                 <span className='pr-4 z-10'>Location</span>
               </ul>
@@ -326,14 +325,14 @@ export default function SomethingIveBuilt() {
                 ></div>
               </a>
 
-              <div className='absolute px-2 bg-AAprimary rounded  ml-4 mt-2 '>
+              {/* <div className='absolute px-2 bg-AAprimary rounded  ml-4 mt-2 '>
                 <span className='text-AAsecondary text-xl'>
                   In initiation...
                 </span>
-              </div>
+              </div> */}
 
               <Img
-                src={'/haircut.png'}
+                src={'/crypto.png'}
                 alt={'Project Screen shot'}
                 className={`w-full rounded h-full `}
               />
@@ -348,7 +347,7 @@ export default function SomethingIveBuilt() {
                 <div className='absolute w-full h-full bg-AAsecondary opacity-10 z-10'></div>
                 <div className='absolute w-full h-full bg-AAprimary opacity-80 z-10'></div>
                 <Img
-                  src={'/haircut.png'}
+                  src={'/crypto.png'}
                   alt={'Project Screen shot'}
                   className={`w-full h-full `}
                 />
@@ -402,9 +401,9 @@ export default function SomethingIveBuilt() {
                 <span className='pr-4 z-10'>Booking</span>
               </ul>
               <div className='z-10 flex fle-row space-x-5 sm:pt-0 pt-2'>
-                <GithubIcon link='https://github.com/hktitof/haircut' />
+                {/* <GithubIcon link='https://github.com/hktitof/haircut' /> */}
                 <a
-                  href='https://www.haircut.ma'
+                  href='https://cryptolenz.com/'
                   target={'_blank'}
                   rel='noreferrer'
                 >
@@ -438,7 +437,7 @@ export default function SomethingIveBuilt() {
               </a>
 
               <Img
-                src={'/CallCenter.png'}
+                src={'/hhwt.png'}
                 alt={'Project Screen shot'}
                 className={`w-full rounded h-full `}
               />
@@ -453,7 +452,7 @@ export default function SomethingIveBuilt() {
                 <div className='absolute w-full h-full bg-AAprimary opacity-50 z-10'></div>
                 <div className='absolute w-full h-full bg-AAprimary opacity-80 z-10'></div>
                 <Img
-                  src={'/CallCenter.png'}
+                  src={'/hhwt.png'}
                   alt={'Project Screen shot'}
                   className={`w-full h-full`}
                 />
@@ -501,7 +500,13 @@ export default function SomethingIveBuilt() {
                 <span className='pr-4 z-10'>MySQL</span>
               </ul>
               <div className='z-10 flex fle-row space-x-5 sm:pt-0 pt-2'>
-                <GithubIcon link='https://github.com/hktitof/CallCenter' />
+                <a
+                  href='https://www.havehalalwilltravel.com/'
+                  target={'_blank'}
+                  rel='noreferrer'
+                >
+                  <ExternalLink url={''} router={router} />
+                </a>
               </div>
             </div>
           </div>

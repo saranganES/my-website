@@ -10,7 +10,7 @@ export const getData = async (
   setRoundCounter: React.Dispatch<React.SetStateAction<number>>,
   roundCounter: number
 ) => {
-  fetch("/api/typing/10")
+  fetch("/api/typing/50")
     .then(response => response.json())
     .then(data => {
       // ?UNCOMMENT THIS TO MODIFY THE QUOTE FOR TESTING
